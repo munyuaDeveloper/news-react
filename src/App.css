@@ -1,10 +1,28 @@
 .App {
-  text-align: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-wrapper{
+  margin: 0 10px;
+}
+
+.main_content {
+  padding: 0 20px;
+}
+.card-title {
+  width: 100% !important;
+}
+.divider {
+  border-bottom: solid 2px #c62828;
+}
+.card {
+  height: 590px;
+  overflow-y: hidden;
+}
+.article_wrapper {
+  text-decoration: none !important;
+  color: inherit;
 }
 
 @media (prefers-reduced-motion: no-preference) {
